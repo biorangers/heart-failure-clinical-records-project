@@ -16,11 +16,9 @@ def fetch_and_save_data():
     # Hedef değişkenini ekle
     data['death_state'] = y
 
-    # Projenin ana dizinini belirleyin
-    project_root = Path(__file__).parent.parent  # Ana dizine ulaşmak için iki kat yukarı çıkıyoruz
 
     # 'data' klasörünün tam yolunu oluştur
-    data_path = project_root / 'data' / 'heart_failure_clinical_records_dataset.csv'
+    data_path = '../heart-failure-clinical-records-project/data/heart_failure_clinical_records.csv'
 
     # Veriyi kaydet
     data.to_csv(data_path, index=False)
