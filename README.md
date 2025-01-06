@@ -1,0 +1,1 @@
+Projedeki not defterini buradan görüntüleyebilirsiniz : https://nbviewer.org/github/biorangers/heart-failure-clinical-records-project/blob/master/notebooks/heart_failure_clinical_record_analysis_and_predictor.ipynb
